@@ -1,7 +1,7 @@
 const bookList = document.querySelector('.books');
 let pastebooks = [];
 
- class BookClass {
+class BookClass {
   constructor(title, author, id) {
     this.title = title;
     this.author = author;
