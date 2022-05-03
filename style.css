@@ -1,0 +1,36 @@
+ @import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter&family=Lato&family=Poppins&display=swap');
+
+* {
+  margin: 10px;
+}
+
+header {
+  display: flex;
+  background: #3e3c3c;
+  color: white;
+  height: 52px;
+  font-size: 13px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: inline-flex;
+  padding-left: 10px;
+}
+
+.list a {
+  flex-direction: column;
+  padding-right: 25px;
+  color: #fff;
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+}
+@
