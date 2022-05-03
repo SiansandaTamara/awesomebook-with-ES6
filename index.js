@@ -23,32 +23,31 @@ formMenu.addEventListener('click', () => {
   listSec.style.display = 'none';
 });
 
-
 contactMenu.addEventListener('click', () => {
-    formSec.style.display = 'none';
-    contSec.style.display = 'block';
-    listSec.style.display = 'none';
-  });
-  
-  const storeBooks = JSON.parse(localStorage.getItem('books'));
-  
-  if (storeBooks) {
-    BookClass.showBooks();
+  formSec.style.display = 'none';
+  contSec.style.display = 'block';
+  listSec.style.display = 'none';
+});
+
+const storeBooks = JSON.parse(localStorage.getItem('books'));
+
+if (storeBooks) {
+  BookClass.showBooks();
+}
+
+form.addEventListener('submit', (e) => {
+  e.preventDefault();
+  const title = titleInput.value.trim();
+  const author = authorInput.value.trim();
+
+  if (!title || !author) {
+    return;
   }
-  
-  form.addEventListener('submit', (e) => {
-    e.preventDefault();
-    const title = titleInput.value.trim();
-    const author = authorInput.value.trim();
-  
-    if (!title || !author) {
-      return;
-    }
-    const newBook = new BookClass(title, author);
-    BookClass.addBook(newBook);
-    BookClass.showBooks();
-    titleInput.value = '';
-    authorInput.value = '';
-  });
-  
-  window.onload = currentDate();
+  const newBook = new BookClass(title, author);
+  BookClass.addBook(newBook);
+  BookClass.showBooks();
+  titleInput.value = '';
+  authorInput.value = '';
+});
+
+window.onload = currentDate();
