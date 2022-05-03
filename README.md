@@ -1,8 +1,5 @@
 # ES6
-# framework-awesomebook
 ![](https://img.shields.io/badge/Microverse-blueviolet)
-
-# awesomebook
 
 > This a group work project testing basic Javascript skills.
 
@@ -15,7 +12,7 @@
 - JavaScript
 ## Live Demo (if available)
 
-[Live Demo Link](https://siansandatamara.github.io/framework-awesomebook/)
+[Live Demo Link](https://siansandatamara.github.io/ES6/)
 
 ## Getting Started
 
@@ -30,7 +27,8 @@ To get a local copy up and running follow these simple example steps.
 ### Setup
 
 ```bash
-git clone// https://siansandatamara.github.io/awesome-bo
+git clone// https://github.com/SiansandaTamara/ES6
+cd es6-modules
 
 
 ## Authors
