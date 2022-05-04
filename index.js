@@ -48,8 +48,7 @@ form.addEventListener('submit', (e) => {
   BookClass.showBooks();
   titleInput.value = '';
   authorInput.value = '';
-  
 });
 
 window.onload = currentDate();
-document.addEventListener('DOMContentLoaded',  BookClass.showBooks);
+document.addEventListener('DOMContentLoaded', BookClass.showBooks);

@@ -32,7 +32,7 @@ class BookClass {
   static showBooks = () => {
     const booksCode = pastebooks
       .map((book) => new BookClass(book.title, book.author, book.id).bookCode());
-      pastebooks = JSON.parse(localStorage.getItem('pastebooks'));
+    pastebooks = JSON.parse(localStorage.getItem('pastebooks'));
     bookList.innerHTML = booksCode.join('');
     const deleteBtn = document.querySelectorAll('.remove');
     deleteBtn.forEach((el) => {
@@ -44,6 +44,6 @@ class BookClass {
     });
   }
 }
-document.addEventListener('DOMContentLoaded',  BookClass.showBooks);
+document.addEventListener('DOMContentLoaded', BookClass.showBooks);
 
 export default BookClass;
