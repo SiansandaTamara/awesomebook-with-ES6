@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Awesome Books</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo"><a href="#Logo">taras Books</a></div>
+      <nav class="hamb-menu">
+        <ul class="nav-list">
+          <li class="list"><a id="list-menu" href="#list">Book List</a></li>
+          <li class="list"><a id="form-menu" href="#add-new"> Add New</a></li>
+          <li class="list">
+            <a id="contact-menu" href="#contact"> Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <div class="date"></div>
+
+    <section id="list">
+        <h1>All Awesome Books</h1>
+        <div id="added-booklist" class="books"></div>
+      </section>
+      <section id="add-new">
+        <hr id="breaker" />
+        <h2>Add a new Book</h2>
+        <form id="added-book">
+          <div>
+            <label for="title"></label>
+            <input type="text" id="title" placeholder="Title" required />
+          </div>
+          <div>
+            <label for="author"></label>
+            <input type="text" id="author" placeholder="Author" required />
+          </div>
+          <div>
+            <button type="submit" id="add-button" class="btn">Add</button>
+          </div>
+        </form>
+      </section>
+  
+      <section id="contact">
+        <h2 class="contact-text">Contact Information</h2>
+  
+        <p class="contact-text" id="paragraph">
+          Do you have any question or just want to say "Hello"?
+           <br />
+          You can reach out to us!
+        </p>
+        <ul class="contact-list">
+          <li>Our mail"tamarasiansanda18@gmail</li>
+          <li>Our phone number"+260779399711"</li>
+          <li>Our Address"lusaka,zambia"</li>
+        </ul>
+      </section>
+  
+      <footer>
+        <h2 id="footer">Copyright 2022</h2>
+      </footer>
+  
+      <script type="module"  src="index.js"></script>
+    </body>
+  </html>
+  
