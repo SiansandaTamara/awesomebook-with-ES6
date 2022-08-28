@@ -12,7 +12,7 @@
 - JavaScript
 ## Live Demo (if available)
 
-[Live Demo Link](https://siansandatamara.github.io/ES6/)
+[Live Demo Link](https://cute-trifle-d9c655.netlify.app/)
 
 ## Getting Started
 
